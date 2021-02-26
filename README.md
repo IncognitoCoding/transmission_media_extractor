@@ -10,8 +10,8 @@ The extracted media file will remain in the extracted folder directory. The medi
 
 ## Script Info:
 * Extracted media file will extract into the media files root folder. Allows easy import of .nfo files from Sonarr/Radarr.
-* The log file auto clears at 1 Megabyte
-* Lots of additional comments
+* The log file auto clears at 1 Megabyte.
+* Lots of additional comments.
 * No script edits required to use this script.
 
 ## Tested On:
