@@ -30,7 +30,8 @@ Transmission allows you to edit a file called settings.json to enable post-proce
 * "script-torrent-done-filename": "/your/script path/transmission_media_extractor.bash",
 
 ### Docker Setup:
-All steps are completed on the docker host.
+All steps are completed on the docker host. These steps add the script to the bind mount directory linked between the host and docker container. The script will live on the docker host but execute from the Transmission container. 
+
 * Step 1: Copy the transmission_media_extractor.bash into the directory you used for the bind mount. (/path to data:/config)
 * Step 2: Set the correct permissions on the script, or you will get an access denied error during execution. Run: chmod +x transmission_media_extractor.bash
 * Step 3: Edit your new settings.json file and update the "script-torrent-done-*" options.
